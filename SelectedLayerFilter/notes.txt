@@ -1,0 +1,30 @@
+Layer Filters:
+
+1.  The Current Selection Layers filter is a special filter that
+   constraints the list of visible layers to only those referenced
+   by entitites in the current/pickfirst selection.  It is not
+   saved with the drawing.
+
+2. The Nested Selection Layers filter constrains the visibile
+   layers to only those referenced by nested entities in the 
+   current/pickfirst selection. This filter is a child of the 
+   Current Selection Layers filter. It is not saved with the drawing.
+
+3. The Recently Used Layers filter constraints the list of visible 
+	layers to only Layers that were recently current, and/or have 
+	been assigned to the layer property of one or more entities.
+
+QLAYER command:
+
+    Registered with ACRX_CMD_USEPICKSET.
+    
+    Prompts for a selection and get its referenced layers.
+    Stores them in the document data object, along with
+    a flag indicating that the QLAYER command was used.
+    
+    Makes the Current Selection Layers filter current.
+    
+    If the LAYERDLGMODE sysvar is 0, run the classic layer
+    command, otherwise if the floating layer palette is not 
+    visible, make it visible, and set the selection layers 
+    it uses to the layers of the selection.

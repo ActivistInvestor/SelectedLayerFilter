@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e322bfd8-f16b-4090-a65d-28b5ab6a3618}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{5f6e7975-dde8-403f-bcc2-29f5619ed6fe}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2800bfd6-7b3a-424b-ab11-c20328b55b08}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{a9cd79f7-1e57-4d78-914c-ca95e0ae4904}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerFilterDocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NestedSelectionLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecentLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectedLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionLayerFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TraceWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AcDbObjectIdSet.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomLayerFilter.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocumentReactorTarget.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicLayerFilter.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFilterDocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFilterManager.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MgdStackWalker.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NestedSelectionLayerFilter.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecentLayerFilter.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionLayerFilter.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonReactorTarget.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TraceWnd.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SelectedLayerFilter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="notes.txt">
+      <Filter>Miscellaneous Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md">
+      <Filter>Miscellaneous Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
