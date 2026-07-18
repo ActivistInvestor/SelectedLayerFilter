@@ -1,6 +1,7 @@
 ﻿## SelectionLayerFilter
 
 Tony Tanzillo/ActivistInvestor
+
 Released under the MIT License
 
 ### Background:
