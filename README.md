@@ -2,7 +2,7 @@
 
 Tony Tanzillo/ActivistInvestor
 
-Released under the MIT License
+Released under the terms of the MIT License
 
 ### Background:
 
