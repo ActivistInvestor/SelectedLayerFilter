@@ -6,7 +6,7 @@ SelectionLayerFilter is a mixed-mode managed/native ObjectARX extensions that im
 
 This project was developed back in the AutoCAD 2008 timeframe, and targeted AutoCAD 2009 and 2010. It was never released as a public extension or product, but is being released now as a sample for educational purposes, and for those who wish to pursue its modernization and integration into current AutoCAD product releases.
 
-<center><img src="SelectedLayerFilter.gif" width="auto" height="450"></center><br>
+<center><img src="SelectedLayerFilter.gif" width="auto" height="593"></center><br>
 
 ## Custom Layer Filters:
 
