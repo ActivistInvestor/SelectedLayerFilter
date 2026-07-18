@@ -1,5 +1,8 @@
 ﻿## SelectionLayerFilter
 
+Tony Tanzillo/ActivistInvestor
+Released under the MIT License
+
 ### Background:
 
 SelectionLayerFilter is a mixed-mode managed/native ObjectARX extension that implements custom layer filters for various purposes, the main one being the ability to constrain the list of visible layers in the modal and modeless layer manager UIs to only those layers that are referenced by the current/pickfirst selection. The extension also works with the classic layer command (modal layer UI) to constrain the list of visible layers to only those referenced by the current/pickfirst selection, using the included QLAYER command.
