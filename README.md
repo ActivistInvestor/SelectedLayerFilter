@@ -17,7 +17,7 @@ This screen clip shows the SelectionLayerFilter extension in use. Each time the 
 
 ## Custom Layer Filters:
 
-1. The **Current Selection Layers** filter is a specialization of AcLyLayerFilter that constrains the list of visible layers to only those referenced by entitites in the current/pickfirst selection.  It is not saved with the drawing.
+1. The **Current Selection Layers** filter is a specialization of AcLyLayerFilter that constrains the list of visible layers to only those referenced by entities in the current/pickfirst selection.  It is not saved with the drawing.
 
 2. The **Nested Selection Layers** filter constrains the visibile layers to only those referenced by nested entities in the current/pickfirst selection. This filter is a child of the Current Selection Layers filter. It is not saved with the drawing.
 
