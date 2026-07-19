@@ -37,7 +37,7 @@ In order for the Current Selection Layers filter to work with the modeless layer
 
 ### Updating the modeless layer manager palette's layer list view
 
-A very simple, non-invasive solution to the problem of coercing the layer manager palette to update its layer list is to simply assign the CLAYER system variable to its current value. Because the layer manager palette watches for changes to that system variable and updates its UI when a change is detected, that serves as a relatively-simple trigger.
+A very simple, non-invasive solution to the problem of coercing the layer manager palette to update its layer list is to simply assign the CLAYER system variable to its current value. Because the layer manager palette watches for changes to that system variable and updates its UI when a change is detected, that serves as a relatively-simple, convenient trigger.
 
 ### Restricting use of the filters to the modal and modeless layer manager palette/dialog
 
