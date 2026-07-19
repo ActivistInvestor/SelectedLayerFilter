@@ -33,7 +33,7 @@ QLAYER is registered with ACRX_CMD_USEPICKSET.
 
 ### Observing/reacting to changes to the current/pickfirst selection
 
-In order for the Current Selection Layers filter to work with the modeless layer manager palette, its layer list must be invalidated and updated whenever the current/pickfirst selection changes. An editor reactor notification handler was implemented in form of the ```LayerFilterManager::pickfirstModified()``` method, which is called whenever the selection changes. That method in-turn calls the ```LayerFilterDocData::OnPickfirstModified()``` method, which invalidates the layer list and forces it to update. 
+In order for the Current Selection Layers filter to work with the modeless layer manager palette, its layer list must be invalidated and updated whenever the current/pickfirst selection changes. An editor reactor notification handler was implemented in the form of the ```LayerFilterManager::pickfirstModified()``` method, which is called whenever the selection changes. That method in-turn calls the ```LayerFilterDocData::OnPickfirstModified()``` method, which invalidates the layer list and forces it to update. 
 
 ### Updating the modeless layer manager palette's layer list view
 
